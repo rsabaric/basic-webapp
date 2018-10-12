@@ -1,6 +1,10 @@
 # basic-webapp
 
-> A Vue.js project
+> A Vue.js project for Watts 4000 Week 2
+
+## Development Environment
+
+Requires basic [Node.js](https://nodejs.org/en/) installation and [Git](https://desktop.github.com/)
 
 ## Build Setup
 
