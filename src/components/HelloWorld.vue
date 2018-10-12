@@ -17,9 +17,9 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'I like cookies and ice cream.',
-      num1: 101,
-      num2: 33,
+      msg: 'I like warm cookies and ice cream.',
+      num1: 10,
+      num2: 50,
       product: null
     }
   },
