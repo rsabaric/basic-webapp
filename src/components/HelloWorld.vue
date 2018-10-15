@@ -14,7 +14,7 @@
        <option>Divided By</option>
       </select></p?>
       <button v-on:click="testFunc">Calculate</button>
-      <p v-if="testval"> {{ num1}} {{selected}} {{num2}} = {{testval}}</p>
+      <p v-if="testval != null"> {{ num1}} {{selected}} {{num2}} = {{testval}}</p>
     <h2>2 Things that are difficult in JavaScript</h2>
     <ol>
       <li>naming things</li>
@@ -43,7 +43,6 @@ export default {
       num4: null,
       yes: 0,
       no:0,
-      product: null,
       testval: null
     }
   },
